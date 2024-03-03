@@ -1,0 +1,17 @@
+.product-card {
+	cursor: pointer;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px 20px 10px 0;
+	padding: 0 10px;
+	min-width: 250px;
+	max-width: 250px;
+	min-height: 200px;
+	max-height: 200px;
+	box-shadow: 0 2px 10px #B3B3B3;
+}
+
+.product-card:last-child {
+	margin-right: 0;
+}
