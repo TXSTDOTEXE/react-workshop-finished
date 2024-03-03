@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# .EXE React Workshop Completed Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run locally, proceed with the following:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone the repo.
+- Paste and run the following in your terminal:
+```
+git clone https://github.com/TXSTDOTEXE/react-workshop-finished.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install packages
+- After the repo finishes cloning, navigate into the repo's directory (`cd react-workshop-finished`) and proceed to with the following commands to install the necessary dependencies needed to run the project:
+```
+npm install # if you have npm
+yarn install # if you have yarn
+pnpm install # if you have pnpm
+```
+
+3. Run the project
+- After the dependencies are installed, finally:
+```
+npm run dev # if you have npm
+yarn run dev # if you have yarn
+pnpm run dev # if you have pnpm
+```
+
+You should now be able to run this repo locally on your machine.
